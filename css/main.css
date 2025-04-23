@@ -1,0 +1,146 @@
+:root {
+  --theme-body-bg: #e5e5e5;
+  --color-primary: #ffffff;
+  --color-secondary:#ABEBC6;
+  --color-terciary: #D5F5E3;
+  --base-font-size: 1rem;
+  --font-color: #000;
+  --margin: 2rem;
+  --padding: 1rem;
+  --gap: 1rem;
+  --border-radius: 0.25rem;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  font-family: "Roboto";
+  color: var(--font-color);
+  font-size: var(--base-font-size);
+  width: 100%;
+  height: 100%;
+  background-color: var(--theme-body-bg);
+  scroll-behavior: smooth;
+}
+
+main {  
+  display: grid;
+  row-gap: 2rem;
+  justify-items: center;
+
+  padding: var(--padding);
+  max-width: 529px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--color-primary);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  min-height: 100%;
+}
+
+hr {
+  width:100%;
+  border-color: var(--color-terciary),
+}
+
+h1 {
+  max-width: 75%;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+ color:  var(--color-secondary);
+ font-weight: 900;
+}
+
+h5 {
+  font-style: italic;
+}
+
+.button {
+  text-decoration: none;
+  color: var(--font-color);
+  padding: var(--padding);
+  background-color: var(--color-terciary);
+  border-radius: var(--border-radius);
+}
+
+.underlined {
+  box-shadow: var(--color-terciary) 0px -2rem 0px inset;
+}
+
+.avatar {
+  border-radius: 50%;
+  background-image: url('../assets/images/lupita.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+}
+
+.info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  column-gap: 2rem;
+  text-align: center;
+}
+
+.info-item {
+  display: grid;
+  justify-items: center;
+}
+
+.review{
+  display: grid;
+  row-gap: 0.75rem;
+  justify-items: center;
+  text-align: center;
+  max-width: 250px;
+  margin: 0 auto;
+  margin-bottom: var(--var-margin);
+}
+
+.review > p {
+  font-size: 0.85rem;
+}
+
+.review-image{
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+.ester {
+  background-image: url('../assets/images/ester.png');
+}
+
+.no-image {
+  background-image: url('../assets/images/no-image.jpeg');
+}
+
+.gift {
+  font-size: 0.85rem;
+  
+}
+.gift strong {
+ font-size: var(--base-font-size);
+  
+}
+.footer {
+  font-style: italic;
+  font-size: 0.75rem;
+}
