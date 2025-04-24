@@ -124,8 +124,17 @@ h5 {
   height: 100px;
   width: 100px;
 }
+
 .ester {
   background-image: url('../assets/images/ester.png');
+}
+
+.eloy {
+  background-image: url('../assets/images/eloy.jpeg');
+}
+
+.yaku {
+  background-image: url('../assets/images/yaku.jpeg');
 }
 
 .no-image {
@@ -134,8 +143,8 @@ h5 {
 
 .gift {
   font-size: 0.85rem;
-  
 }
+
 .gift strong {
  font-size: var(--base-font-size);
   
